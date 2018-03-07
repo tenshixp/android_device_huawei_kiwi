@@ -69,6 +69,10 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Performance
 ro.am.reschedule_service=true
+# Enable B service 
+ro.sys.fw.bservice_enable=true
+#HWUI
+ro.hwui.fbo_cache_size=2
 
 # Radio
 DEVICE_PROVISIONED=1
