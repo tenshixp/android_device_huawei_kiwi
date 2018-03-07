@@ -124,3 +124,6 @@ ro.sys.sdcardfs=true
 
 # WiFi
 wifi.interface=wlan0
+
+#ZRAM
+ro.config.zram=true
