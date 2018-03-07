@@ -110,6 +110,9 @@ on enable-low-power
     write /sys/module/process_reclaim/parameters/pressure_max 70
     write /sys/module/process_reclaim/parameters/swap_opt_eff 30
 
+    # change GPU initial power level from 400MHz(level 2) to 220MHz(level 3) for power savings
+    write /sys/class/kgsl/kgsl-3d0/default_pwrlevel 3
+
     start perfd
 
 on charger
