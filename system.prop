@@ -68,9 +68,9 @@ ro.vendor.extension_library=libqti-perfd-client.so
 
 # Performance
 ro.am.reschedule_service=true
-# Enable B service 
+# Enable B-service aging propagation on memory pressure.
 ro.sys.fw.bservice_enable=true
-#HWUI
+# HWUI
 ro.hwui.fbo_cache_size=2
 
 # Radio
