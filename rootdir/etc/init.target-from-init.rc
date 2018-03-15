@@ -166,8 +166,6 @@ service libqmi_oem_main /system/bin/libqmi_oem_main
     class main
     group wakelock
 
-# disable enable_swap
-
 service huawei_version /system/bin/huawei_version
     class core
     user root
