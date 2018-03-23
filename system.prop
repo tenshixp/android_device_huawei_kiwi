@@ -121,6 +121,7 @@ persist.radio.modem.cap=7E442
 # Tethering
 sys.usb.rps_mask=10
 persist.sys.usb.config.extra=none
+net.tethering.noprovisioning=true
 
 # Storage
 ro.sys.sdcardfs=true
