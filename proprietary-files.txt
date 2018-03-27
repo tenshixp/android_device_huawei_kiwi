@@ -1049,7 +1049,7 @@ vendor/lib/libsmemlog.so
 
 # Radio
 global/ons/ons.bin
--app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 #-app/shutdownlistener/shutdownlistener.apk
 bin/imsqmidaemon
 bin/netmgrd
@@ -1117,6 +1117,7 @@ bin/time_daemon
 -vendor/lib/libtime_genoff.so
 vendor/lib64/libTimeService.so
 vendor/lib/libTimeService.so
+
 # Signed Venus (media) firmware
 etc/firmware/venus.b00
 etc/firmware/venus.b01
