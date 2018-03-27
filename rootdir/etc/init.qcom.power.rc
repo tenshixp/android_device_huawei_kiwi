@@ -2,7 +2,7 @@ on early-init
     setprop sys.io.scheduler noop
 
 on enable-low-power
-    setprop sys.io.scheduler cfq
+    # setprop sys.io.scheduler cfq
 
     write /proc/sys/kernel/sched_boost 1
 
