@@ -199,6 +199,13 @@ PRODUCT_PACKAGES += \
     init.target-from-init.rc \
     init.target.rc \
     ueventd.qcom.rc
+    
+# Radio
+PRODUCT_PACKAGES += \
+    qti-telephony-common
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Recovery
 PRODUCT_PACKAGES += \
